@@ -19,11 +19,19 @@ public class PlayerMovement : MonoBehaviour
 
     private void Update()
     {
-        rb.velocity = new Vector2(Input.GetAxis("Horizontal") * moveSpeed, rb.velocity.y);
-
-        if (Input.GetKeyDown(KeyCode.Space) && groundCheck.isGrounded)
+        if (!DialogueManager.GetInstance().dialogueIsPlaying)
         {
-            rb.velocity = new Vector2(rb.velocity.x, jumpSpeed);
+            rb.velocity = new Vector2(Input.GetAxis("Horizontal") * moveSpeed, rb.velocity.y);
+
+            if (Input.GetKeyDown(KeyCode.Space) && groundCheck.isGrounded)
+            {
+                rb.velocity = new Vector2(rb.velocity.x, jumpSpeed);
+            }
+        }
+
+        else
+        {
+            rb.velocity = Vector2.zero;
         }
     }
 }
