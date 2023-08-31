@@ -192,10 +192,11 @@ public class DialogueManager : MonoBehaviour
     private void EndDialogue()
     {
         Debug.Log("Dialogue ending.");
-        //SceneManager.LoadScene(0);
         dialogueIsPlaying = false;
         dialogueText.text = "";
 
         dialogueCanvas.SetActive(false);
+
+        SceneManager.LoadScene("Minigame_Word");
     }
 }
