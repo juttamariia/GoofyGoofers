@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
+using UnityEngine.SceneManagement;
 
 public class MinigameController_PoemArranger : MonoBehaviour
 {
@@ -79,5 +80,15 @@ public class MinigameController_PoemArranger : MonoBehaviour
         }
 
         endScreen.SetActive(true);
+    }
+
+    public void RestartMinigame()
+    {
+        SceneManager.LoadScene("Minigame_Word");
+    }
+
+    public void RestartGame()
+    {
+        SceneManager.LoadScene("WorldView");
     }
 }

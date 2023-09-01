@@ -7,6 +7,6 @@ public class ManagerCreator : MonoBehaviour
     {
         DontDestroyOnLoad(gameObject);
 
-        SceneManager.LoadScene("WorldView");
+        SceneManager.LoadScene("MainMenu");
     }
 }

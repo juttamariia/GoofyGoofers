@@ -1,5 +1,5 @@
-I am Mozart the Penguin.
-I am the best composer ever.
+I am Picasso the Penguin.
+I am the best artist ever.
 
 + [Agree]
     Awesome that you understand.

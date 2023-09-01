@@ -28,6 +28,9 @@ public class DialogueManager : MonoBehaviour
 
     private static DialogueManager instance;
 
+    [Header("Debugging")]
+    [SerializeField] private string choice;
+
     private void Awake()
     {
         if (instance != null)
@@ -126,6 +129,22 @@ public class DialogueManager : MonoBehaviour
     {
         Debug.Log("Made a choice.");
         currentStory.ChooseChoiceIndex(choiceIndex);
+
+        switch (choiceIndex)
+        {
+            case 0:
+                choice = "agree";
+                break;
+
+            case 1:
+                choice = "disagree";
+                break;
+
+            default:
+                Debug.Log("No proper choice made.");
+                break;
+        }
+
         ContinueDialogue();
     }
 
@@ -197,6 +216,9 @@ public class DialogueManager : MonoBehaviour
 
         dialogueCanvas.SetActive(false);
 
-        SceneManager.LoadScene("Minigame_Word");
+        if(choice == "agree")
+        {
+            SceneManager.LoadScene("Minigame_Word");
+        }
     }
 }
