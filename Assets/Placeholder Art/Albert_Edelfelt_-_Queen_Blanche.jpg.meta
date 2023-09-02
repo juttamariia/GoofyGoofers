@@ -1,0 +1,391 @@
+fileFormatVersion: 2
+guid: 270a3a6c3df421a4b9ff395f23258d30
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Albert_Edelfelt_-_Queen_Blanche_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3487.5
+        width: 1202
+        height: 1162.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a7798e6c76adcb458fdd94a01504c14
+      internalID: 1046414080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Albert_Edelfelt_-_Queen_Blanche_1
+      rect:
+        serializedVersion: 2
+        x: 1202
+        y: 3487.5
+        width: 1202
+        height: 1162.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbab1af3fe2a9104ea1bc88145e9862d
+      internalID: 299092932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Albert_Edelfelt_-_Queen_Blanche_2
+      rect:
+        serializedVersion: 2
+        x: 2404
+        y: 3487.5
+        width: 1202
+        height: 1162.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ebbb2d3704701d4ea7f16bb414db17f
+      internalID: 160633428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Albert_Edelfelt_-_Queen_Blanche_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2325.5
+        width: 1202
+        height: 1162.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a048344c0c3cf0044972bd03574100ea
+      internalID: 340858883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Albert_Edelfelt_-_Queen_Blanche_4
+      rect:
+        serializedVersion: 2
+        x: 1202
+        y: 2325.5
+        width: 1202
+        height: 1162.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bffb3ae79ed86e4bbd7be2a0011965b
+      internalID: 1733876950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Albert_Edelfelt_-_Queen_Blanche_5
+      rect:
+        serializedVersion: 2
+        x: 2404
+        y: 2325.5
+        width: 1202
+        height: 1162.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb96bf7217ef1e44eb8343bba4624623
+      internalID: 1634710750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Albert_Edelfelt_-_Queen_Blanche_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1163.5
+        width: 1202
+        height: 1162.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b2897820573d474084616ed4feda84a
+      internalID: 1478888938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Albert_Edelfelt_-_Queen_Blanche_7
+      rect:
+        serializedVersion: 2
+        x: 1202
+        y: 1163.5
+        width: 1202
+        height: 1162.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bedb9e3b46cd1604a87442b43d401ba1
+      internalID: 1034383250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Albert_Edelfelt_-_Queen_Blanche_8
+      rect:
+        serializedVersion: 2
+        x: 2404
+        y: 1163.5
+        width: 1202
+        height: 1162.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebd7ccff2765da44d9e6d676e17df41f
+      internalID: -2090240485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Albert_Edelfelt_-_Queen_Blanche_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1.5
+        width: 1202
+        height: 1162.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 913dd02769349364998b9cdabab6e9e7
+      internalID: -1829665027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Albert_Edelfelt_-_Queen_Blanche_10
+      rect:
+        serializedVersion: 2
+        x: 1202
+        y: 1.5
+        width: 1202
+        height: 1162.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1990ed2094e75444bbeb99f2810e2c7c
+      internalID: -819141717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Albert_Edelfelt_-_Queen_Blanche_11
+      rect:
+        serializedVersion: 2
+        x: 2404
+        y: 1.5
+        width: 1202
+        height: 1162.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 528ffae87dd895547b6ea1a6f38ee153
+      internalID: 1359977546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Albert_Edelfelt_-_Queen_Blanche_0: 1046414080
+      Albert_Edelfelt_-_Queen_Blanche_1: 299092932
+      Albert_Edelfelt_-_Queen_Blanche_10: -819141717
+      Albert_Edelfelt_-_Queen_Blanche_11: 1359977546
+      Albert_Edelfelt_-_Queen_Blanche_2: 160633428
+      Albert_Edelfelt_-_Queen_Blanche_3: 340858883
+      Albert_Edelfelt_-_Queen_Blanche_4: 1733876950
+      Albert_Edelfelt_-_Queen_Blanche_5: 1634710750
+      Albert_Edelfelt_-_Queen_Blanche_6: 1478888938
+      Albert_Edelfelt_-_Queen_Blanche_7: 1034383250
+      Albert_Edelfelt_-_Queen_Blanche_8: -2090240485
+      Albert_Edelfelt_-_Queen_Blanche_9: -1829665027
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
