@@ -7,6 +7,7 @@ public class OfficeButtons : MonoBehaviour
 {
     [SerializeField] private GameObject artView;
     [SerializeField] private GameObject timeline;
+    [SerializeField] private GameObject viewToggleButtons;
 
     public void ShowArtView()
     {
@@ -23,6 +24,7 @@ public class OfficeButtons : MonoBehaviour
     public void ShowArtPreCreationPanel()
     {
         artView.transform.GetChild(3).gameObject.SetActive(true);
+        viewToggleButtons.SetActive(false);
     }
 
     public void MoveToArtCreation()

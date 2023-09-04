@@ -89,6 +89,6 @@ public class MinigameController_PoemArranger : MonoBehaviour
 
     public void RestartGame()
     {
-        SceneManager.LoadScene("WorldView");
+        SceneManager.LoadScene("HeavenOffice");
     }
 }

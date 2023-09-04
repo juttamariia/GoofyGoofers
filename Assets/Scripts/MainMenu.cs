@@ -7,6 +7,11 @@ public class MainMenu : MonoBehaviour
 {
     public void StartGame()
     {
+        SceneManager.LoadScene("HeavenOffice");
+    }
+
+    public void GoToPicassoWorld()
+    {
         SceneManager.LoadScene("WorldView");
     }
 }

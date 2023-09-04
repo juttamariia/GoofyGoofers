@@ -20,4 +20,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Minigame_Word.unity
     guid: 22e96b2805d0b544ab6cf071b4eec41c
+  - enabled: 1
+    path: Assets/Scenes/ArtPuzzle.unity
+    guid: 87bb4c6ec74c5524981f7dde9c286188
+  - enabled: 1
+    path: Assets/Scenes/CinematicScene.unity
+    guid: 3b5607ae7e000494ca27df0e0126b0f7
+  - enabled: 1
+    path: Assets/Scenes/HeavenOffice.unity
+    guid: 6f2aecb288692074fa8db96ed73f52a3
   m_configObjects: {}

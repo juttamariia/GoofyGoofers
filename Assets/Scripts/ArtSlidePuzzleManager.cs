@@ -39,7 +39,6 @@ public class ArtSlidePuzzleManager : MonoBehaviour
             }
         }*/
 
-        tiles[11].gameObject.SetActive(false);
         cam = Camera.main;
 
         foreach(SlidePuzzleTile tile in tiles)
@@ -50,7 +49,20 @@ public class ArtSlidePuzzleManager : MonoBehaviour
             }
         }
 
-        ShuffleTiles();
+        //ShuffleTiles();
+    }
+
+    private void Start()
+    {
+        StartCoroutine(DelayBeforeShuffle());
+
+        IEnumerator DelayBeforeShuffle()
+        {
+            yield return new WaitForSeconds(2f);
+
+            ShuffleTiles();
+            tiles[11].gameObject.SetActive(false);
+        }
     }
 
     private void Update()
