@@ -1,4 +1,4 @@
-I am Picasso the Penguin.
+I am Mr. Picasso.
 I am the best artist ever.
 
 + [Agree]
